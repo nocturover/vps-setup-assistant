@@ -1,6 +1,3 @@
-from pathlib import Path
-
-readme_content = """
 # 🔐 Secure VPS Bootstrap
 
 A secure and interactive bash script to automate the initial setup of a VPS — including UFW, Fail2Ban, SSH hardening, SSH key management, and Bitwarden integration.
@@ -27,3 +24,34 @@ A secure and interactive bash script to automate the initial setup of a VPS — 
 git clone https://github.com/yourusername/secure-vps-bootstrap.git
 cd secure-vps-bootstrap
 chmod +x vps-setup.sh
+```
+
+### 2. Run the script
+
+```bash
+./vps-setup.sh
+```
+
+---
+
+## 📦 Requirements
+
+- Ubuntu 20.04/22.04
+- sudo privileges
+- Optional: Bitwarden account & CLI (`snap install bw`)
+
+---
+
+## 📁 Structure
+
+```
+.
+├── vps-setup.sh       # Main automation script
+└── README.md          # This file
+```
+
+---
+
+## 📄 License
+
+MIT License
